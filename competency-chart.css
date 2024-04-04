@@ -1,6 +1,35 @@
-.big-circle{
-    border-radius: 50%;
-    border: 1px solid red;
-    margin: 100px auto;
-    position: relative;
+.big-circle {
+  border-radius: 50%;
+  border: 1px solid red;
+  margin: 100px auto;
+  position: relative;
+  height: 700px;
+  width: 700px;
+}
+
+.big-circle__skill-block {
+  height: 700px;
+  width: 30px;
+  position: absolute;
+  left: 335px;
+  z-index: 1;
+}
+
+.big-circle__skill {
+  height: 15px;
+  width: 15px;
+  margin: -10px;
+  z-index: 2;
+  background-color: aqua;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.big-circle__skill-text {
+  position: absolute;
+  top: -60px;
+  left: -20px;
+  text-align: center;
+  word-wrap: break-word;
+  width: 70px;
 }
