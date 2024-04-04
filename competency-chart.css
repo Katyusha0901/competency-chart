@@ -1,0 +1,6 @@
+.big-circle{
+    border-radius: 50%;
+    border: 1px solid red;
+    margin: 100px auto;
+    position: relative;
+}
